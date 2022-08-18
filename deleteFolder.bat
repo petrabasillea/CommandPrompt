@@ -1,1 +1,1 @@
-rmdir "directory"
+RMDIR /Q/S "_Output"
