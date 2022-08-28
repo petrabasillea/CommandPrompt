@@ -13,7 +13,7 @@ set CUR_MS=%time:~9,2%
 ::set CUR_MM="01"
 ::set CUR_DD="19"
 set commit="push_"%CUR_HH%%CUR_NN%%CUR_SS%
-set branch="master"
+set branch="main"
 
 git config --global "user.email "petrabasillea@gmail.com"
 git config --global "user.name "petrabasillea"
