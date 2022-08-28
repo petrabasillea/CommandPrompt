@@ -19,7 +19,11 @@ git config --global "user.email "petrabasillea@gmail.com"
 git config --global "user.name "petrabasillea"
 
 git status
+timeout 60
 git add .
+timeout 60
 git commit -m "%commit%"
+timeout 60
 ::git commit --amend --no-edit --date="%CUR_YYYY%-%CUR_MM%-%CUR_DD% %CUR_HH%:%CUR_NN%:%CUR_SS% -0700"
 git push origin %branch%
+timeout 60
